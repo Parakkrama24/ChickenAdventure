@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - boader
   layers:
   - Default
   - TransparentFX
@@ -44,6 +45,6 @@ TagManager:
   - name: background
     uniqueID: 400803905
     locked: 0
-  - name: Boaders
+  - name: forground
     uniqueID: 2862918061
     locked: 0

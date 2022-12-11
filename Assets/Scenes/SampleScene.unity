@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 19585476}
   m_Layer: 0
   m_Name: Boader
-  m_TagString: Untagged
+  m_TagString: boader
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -216,6 +216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 182652420}
+  - component: {fileID: 182652422}
   - component: {fileID: 182652421}
   m_Layer: 0
   m_Name: Right_boader
@@ -289,6 +290,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &182652422
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182652419}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.26, y: 8, z: 0.2}
+  m_Center: {x: 0, y: 0.000000014901161, z: 0}
 --- !u!1 &383679637
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,6 +316,7 @@ GameObject:
   - component: {fileID: 383679639}
   - component: {fileID: 383679638}
   - component: {fileID: 383679642}
+  - component: {fileID: 383679643}
   m_Layer: 0
   m_Name: Chicken
   m_TagString: Untagged
@@ -424,6 +439,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movespeed: 3.5
   Rigidbody: {fileID: 0}
+  _isGoindLeft: 1
+--- !u!95 &383679643
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383679637}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bc9c3fcf20face549956e8229666891c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,7 +718,7 @@ GameObject:
   - component: {fileID: 1795876513}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Graound
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
